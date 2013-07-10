@@ -1,4 +1,3 @@
-
 ScrollBarPanelWithClock
 ==================
 
@@ -9,9 +8,9 @@ This is an open source library which uses the scroll bar library. I have added a
 Screenshot
 =========
 
-![without second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/without_second_hand.png)
+![without second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/without_second_hand.png "without second hand")
 
-![with second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/with_second_hand.png)
+![with second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/with_second_hand.png "with second hand")
 Usage
 =====
 
