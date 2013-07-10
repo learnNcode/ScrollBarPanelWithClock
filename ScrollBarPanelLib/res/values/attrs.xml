@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Clock">
+        <attr name="hand_dial" format="reference" />
+        <attr name="hand_hour" format="reference" />
+        <attr name="hand_minute" format="reference" />
+        <attr name="hand_second" format="reference" />
+        <attr name="scrollBarPanel" format="reference" />
+        <attr name="scrollBarPanelInAnimation" format="reference" />
+        <attr name="scrollBarPanelOutAnimation" format="reference" />
+    </declare-styleable>
+
+</resources>

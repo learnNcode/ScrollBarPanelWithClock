@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.learnNcode.android.ExtendedListView
+        xmlns:clock="http://schemas.android.com/apk/res-auto"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:choiceMode="singleChoice"
+        clock:scrollBarPanel="@layout/scrollbarpanel"
+        clock:scrollBarPanelInAnimation="@anim/in"
+        clock:scrollBarPanelOutAnimation="@anim/out" />
+
+</LinearLayout>
+
+

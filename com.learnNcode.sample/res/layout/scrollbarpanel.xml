@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     <TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:singleLine="true"
+    android:ellipsize="none"
+    android:textColor="#ffffffff"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:shadowColor="#ff000000"
+    android:shadowDx="0"
+    android:shadowDy="-1"
+    android:shadowRadius="0.1"
+    android:background="@drawable/background_scrollbarpanel" />
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/scrollbar_panel_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/background_scrollbarpanel" >
+
+        <LinearLayout
+            android:id="@+id/clock_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="8dp"
+            android:paddingTop="2dp"
+             >
+
+            <com.learnNcode.android.Clock
+                xmlns:clock="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/analogClockScroller"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                clock:hand_second="@drawable/ic_timer_clock_minute_hand" 
+                clock:hand_minute="@drawable/ic_timer_clock_minute_hand"
+                clock:hand_hour="@drawable/ic_timer_clock_hour_hand"
+                clock:hand_dial="@drawable/ic_timer_clock_dialer"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:text="test"
+            android:textColor="#ffffffff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
