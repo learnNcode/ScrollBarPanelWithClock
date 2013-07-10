@@ -10,9 +10,9 @@ This is an open source library which uses the scroll bar library. I have added a
 Screenshot
 =========
 
-![screenshot1](https://dl.dropboxusercontent.com/u/61919232/learnNcode/without_second_hand.png"without second hand")
+![without second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/without_second_hand.png"without second hand")
 
-![screenshot2](https://dl.dropboxusercontent.com/u/61919232/learnNcode/with_second_hand.png"with second hand")
+![with second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/with_second_hand.png"with second hand")
 Usage
 =====
 
@@ -54,7 +54,7 @@ Activity
 
 Set your scrollBarPanel
 
-    ExtendedListView listView = (ExtendedListView) findViewById(android.R.id.list);
+    ExtendedListView mListView = (ExtendedListView) findViewById(android.R.id.list);
 
 You can attach a position changed listener on the listview and write your desired implementation.
 
