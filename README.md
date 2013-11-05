@@ -127,7 +127,7 @@ License
 Thankyou
 =======
 
-  If you like my work say a hi :)
+  If you like our work say a hi :)
   Happy coding.
       
 
