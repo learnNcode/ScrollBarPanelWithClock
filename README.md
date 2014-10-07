@@ -11,6 +11,11 @@ Screenshot
 ![without second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/without_second_hand.png "without second hand")
 
 ![with second hand](https://dl.dropboxusercontent.com/u/61919232/learnNcode/with_second_hand.png "with second hand")
+
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ScrollBarPanelWithClock-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1029)
+
+
 Usage
 =====
 
